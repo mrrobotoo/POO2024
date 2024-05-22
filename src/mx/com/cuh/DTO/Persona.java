@@ -47,6 +47,44 @@ public class Persona {
 		this.nacionalidad = nacionalidad;
 	}
 	
+	public class Perro {
+		private String Raza;
+		private String Color;
+		private Float Altura;
+		private Float Peso;
 	
-	
+		public String getRaza() {
+	        return Raza;
+	    }
+
+	    public void setRaza(String Raza) {
+	        this.Raza = Raza;
+	    }
+
+	    public String getColor() {
+	        return Color;
+	    }
+
+	    public void setColor(String Color) {
+	        this.Color = Color;
+	    }
+
+	    public float getAltura() {
+	        return Altura;
+	    }
+
+	    public void setAltura(Float Altura) {
+	        this.Altura = Altura;
+	    }
+
+	    public float getPeso() {
+	        return Peso;
+	    }
+
+	    public void setPeso(Float Peso) {
+	        this.Peso = Peso;
+	    }
+		
+		
+	}
 }
