@@ -1,50 +1,41 @@
 package mx.com.cuh.PRRO;
 
 public class perro {
-	private String colorCabello;
-	private String colorOjos;
-	private String colorPiel;
-	private Float altura;
-	private Float peso;
-	private String nacionalidad;
-	
-	
-	public String getColorCabello() {
-		return colorCabello;
+
+	private String razaDelPerro;
+	private String colorPelo;
+	private String tamaño;
+	private float edad;
+	private String sexo;
+	public String getRazaDelPerro() {
+		return razaDelPerro;
 	}
-	public void setColorCabello(String colorCabello) {
-		this.colorCabello = colorCabello;
+	public void setRazaDelPerro(String razaDelPerro) {
+		this.razaDelPerro = razaDelPerro;
 	}
-	
-	public String getColorOjos() {
-		return colorOjos;
+	public String getColorPelo() {
+		return colorPelo;
 	}
-	public void setColorOjos(String colorOjos) {
-		this.colorOjos = colorOjos;
+	public void setColorPelo(String colorPelo) {
+		this.colorPelo = colorPelo;
 	}
-	public String getColorPiel() {
-		return colorPiel;
+	public String getTamaño() {
+		return tamaño;
 	}
-	public void setColorPiel(String colorPiel) {
-		this.colorPiel = colorPiel;
+	public void setTamaño(String tamaño) {
+		this.tamaño = tamaño;
 	}
-	public Float getAltura() {
-		return altura;
+	public float getEdad() {
+		return edad;
 	}
-	public void setAltura(Float altura) {
-		this.altura = altura;
+	public void setEdad(float edad) {
+		this.edad = edad;
 	}
-	public Float getPeso() {
-		return peso;
+	public String getSexo() {
+		return sexo;
 	}
-	public void setPeso(Float peso) {
-		this.peso = peso;
-	}
-	public String getNacionalidad() {
-		return nacionalidad;
-	}
-	public void setNacionalidad(String nacionalidad) {
-		this.nacionalidad = nacionalidad;
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
 	}
 	
 	
