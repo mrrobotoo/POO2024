@@ -7,10 +7,30 @@ public class Persona {
 	private Float altura;
 	private Float peso;
 	private String nacionalidad;
-	
-	
+		
 	public String getColorCabello() {
 		return colorCabello;
+	}
+	
+	public Persona() {
+		super();
+		
+	}
+	public Persona(String cola, String colorOjos, String colorPiel, Float altura, Float peso,
+			String nacionalidad) {
+		super();
+		this.colorCabello =  "";
+		this.colorOjos = colorOjos;
+		this.colorPiel = colorPiel;
+		this.altura = altura;
+		this.peso = peso;
+		this.nacionalidad = nacionalidad;
+	}
+	
+	public Persona(String colorCabello, String colorOjos) {
+		super();
+		this.colorCabello = colorCabello;
+		this.colorOjos = colorOjos;
 	}
 	public void setColorCabello(String colorCabello) {
 		this.colorCabello = colorCabello;
