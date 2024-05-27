@@ -1,7 +1,5 @@
 package mx.com.cuh;
 
-import mx.com.cuh.DTO.Persona;
-
 public class main {
 
 	public static void main(String[] args) {
@@ -15,13 +13,14 @@ public class main {
 			System.out.println(num1 + num2);
 		}else if (opcion ==2) {
 			System.out.println(num1 - num2); 
+		}else if (opcion ==3) {
+			System.out.println(num1 * num2); 
+		}else if (opcion ==4) {
+			System.out.println(num1 / num2); 
+		}else if (opcion ==5) {
+			System.out.println(Math.pow(num1,num2)); 
 		}
-		 
 		
-		System.out.println(num1 / num2); 
-		System.out.println(Math.pow(num1,num2)); 
 	}
-	
-	
 
 }
