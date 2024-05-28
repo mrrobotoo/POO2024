@@ -6,24 +6,18 @@ public class main {
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Ingresa el primer número: ");
-        float num1 = scanner.nextFloat();
-        
-        System.out.print("Ingresa el segundo número: ");
-        float num2 = scanner.nextFloat();
+        System.out.print("Ingresa la edad: ");
+		int edad = scanner.nextInt();
 		
-		System.out.println("Calculadora 1.Suma, 2. Resta, 3.Division, 4.multiplicación, 5. Exponente");
-		int opcion = scanner.nextInt();
-		
-		if (opcion ==1) {
-		    System.out.println(num1 + num2);
-		} else if (opcion ==2) {
-		    System.out.println(num1 - num2); 
-		} else if (opcion ==3) {
-		    System.out.println(num1 / num2); 
-		} else if (opcion ==4) {
-		    System.out.println(num1 * num2); 
-		} else if (opcion ==5) {
-			System.out.println(Math.pow(num1,num2));}
+		if (edad <13) {
+		    System.out.println("Niño ");
+		} else if (edad >= 14 && edad <= 17) {
+		    System.out.println("Adolesente "); 
+		} else if (edad >= 18 && edad <= 64) {
+		    System.out.println("Adulto "); 
+		} else if (edad >=64) {
+		    System.out.println("Adulto Mayor "); 
+		} else if (edad ==5) {
+	}
 	}
 }
