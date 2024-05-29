@@ -1,11 +1,25 @@
 package mx.com.cuh;
 
+import java.util.Scanner;
+
 import mx.com.cuh.DTO.Persona;
 
 public class main {
 
 	public static void main(String[] args) {
-		float num1 =5;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("ingrese un numero: ");
+		int num1= sc.nextInt();
+		
+		System.out.println("ingrese un numero: ");
+		int num2= sc.nextInt();
+		
+		int resultado= num1+num2;
+		System.out.println("El resultado es:  " + resultado);
+		
+		
+		/*float num1 =5;
 		float num2 =6;
 		
 		System.out.println("Calculadora 1.Suma, 2. Resta, 3.Division, 4.multiplicación, 5. Exponente");
@@ -25,7 +39,7 @@ public class main {
 		}
 		else if (opcion ==5) {
 			System.out.println(Math.pow(num1,num2));
-		}
+		}*/
 		
 		
 	}
