@@ -1,5 +1,9 @@
 package mx.com.cuh;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 import mx.com.cuh.DTO.Persona;
 
 public class main {
@@ -25,8 +29,34 @@ public class main {
 		
 		}
 		
+		
+		Persona persona;
+
+		List<Persona> personas = new ArrayList<Persona>();
+		
+		for (float i = 0; i < 50; i++) {
+			
+		    persona = new Persona();
+			persona.setAltura(i);
+			personas.add(persona);
+			
+			
+		}
+		
+
+		int j = 0;
+		for (Persona x : personas) {
+			System.out.println("la altura de la persona  "+ j
+		+ "es "+x.getAltura());
+			j = j +1;
+		}
+		
 	}
 	
 	
+
+		
+		
+		
 
 }
