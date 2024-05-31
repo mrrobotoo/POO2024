@@ -6,6 +6,7 @@ public class main {
 
 	public static void Main(String[] args) {
 	
+		
 		 Scanner scanner = new Scanner(System.in);
 
 	        System.out.println("Ingresa el primer número: ");
@@ -30,6 +31,10 @@ public class main {
 			System.out.println(Math.pow(num1,num2)); 
 		}
 		scanner.close();
+		
+		for (int i = 0; i < args.length; i++) {
+			
+		}
 	}
 	    
 	     
