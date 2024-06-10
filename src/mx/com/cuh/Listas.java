@@ -7,6 +7,19 @@ import java.util.List;
 import mx.com.cuh.DTO.Persona;
 
 public class Listas {
+	 
+		public  static Persona crearPersona(String colorOjos, Float altura,String colorCabello,
+				String colorPiel, String nacionalidad, Float peso) {
+			Persona persona= new Persona();
+			persona.setAltura(altura);
+			persona.setColorCabello(colorCabello);
+			persona.setColorOjos(colorOjos);
+			persona.setColorPiel(colorPiel);
+			persona.setNacionalidad(nacionalidad);
+			persona.setPeso(peso);
+			return persona;
+		}
+	 
 	 public static void main(String[] args) {
 	  
 		 
@@ -29,7 +42,11 @@ public class Listas {
 		}
 		 
 		List<Persona> listaPersona = new ArrayList<Persona>();
-		listaPersona.add(new Persona("negro",null,null,null,null,null));
+		Persona personaObjeto =crearPersona(null, null, "negro", null, null, null);
+		
+		listaPersona.add(personaObjeto);
+		listaPersona.add(crearPersona(null, null, "negro", null, null, null));
+
 		Persona personaa;
 		
 		 for (Persona persona : listaPersona) {

@@ -2,9 +2,9 @@ package mx.com.cuh;
 
 import mx.com.cuh.DTO.Persona;
 
-public class IfsObjetos {
+public class IfsObjetos extends Listas {
 	
-	public void primeraClase() {
+	public void primeraClase()  {
 		System.out.println("Hola");
 		
 		
@@ -42,20 +42,15 @@ public class IfsObjetos {
 		
 		
 		
-		
-		
-		
-		
-		
+	
 		String resultado = (nombre != "sebastian") ? "Hola carlos":"Hola sebastian";
 														
 		System.out.println(resultado);
 		
 		
 		
-		
 		System.out.println(persona.getColorCabello());
-		Persona persona2 = new Persona("Castaño", "Castaños");
+		Persona persona2 = crearPersona("Castaños", null, "Castaños", null, null, null);
 	
 		Persona persona3 = new Persona();
 		System.out.println(persona);
